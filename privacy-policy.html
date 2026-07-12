@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Политика конфиденциальности — Kolorino</title>
+  <meta name="description" content="Политика конфиденциальности приложения Kolorino (AbsurdoxLab).">
+  <style>
+    :root {
+      --bg: #F4F8FA; --card: #FFFFFF; --ink: #2A2E3A; --muted: #6B7280;
+      --accent: #22B9D3; --accent-soft: rgba(34,185,211,0.10);
+      --line: #E5EEF2;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.6; padding: 24px 16px;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    .card {
+      background: var(--card); border-radius: 20px; padding: 28px 24px;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.06);
+    }
+    h1 { font-size: 1.6rem; margin: 0 0 4px; }
+    .updated { color: var(--muted); font-size: 0.9rem; margin: 0 0 20px; }
+    h2 { font-size: 1.15rem; margin: 28px 0 8px; color: var(--accent); }
+    h3 { font-size: 1.02rem; margin: 18px 0 6px; color: var(--ink); }
+    .lead {
+      background: var(--accent-soft); border: 1px solid rgba(34,185,211,0.35);
+      border-radius: 12px; padding: 12px 14px; margin: 16px 0;
+    }
+    ul, ol { padding-left: 20px; }
+    a { color: var(--accent); }
+    code { background: #EEF6F9; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    footer { color: var(--muted); font-size: 0.85rem; margin-top: 28px;
+      border-top: 1px solid var(--line); padding-top: 14px; }
+    .brush { font-size: 1.4rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1><span class="brush">🎨</span> Политика конфиденциальности — Kolorino</h1>
+      <p class="updated">Последнее обновление: 12 июля 2026</p>
+
+      <p>Приложение <strong>Kolorino</strong> («Приложение», package
+      <code>com.kolorino.kolorino</code>) разработано студией
+      <strong>AbsurdoxLab</strong>. Эта политика описывает, какие данные
+      обрабатываются при использовании Приложения и как ими управлять.</p>
+
+      <p class="lead"><strong>Коротко:</strong> сами мы не собираем ваши персональные
+      данные — весь прогресс раскраски хранится у вас на устройстве.
+      Часть технических данных обрабатывается сервисами Google (AdMob, Firebase Analytics,
+      Google Play Games Services, Google Play Billing). Всё передаётся Google по
+      <strong>зашифрованному соединению (HTTPS)</strong>.</p>
+
+      <h2>1. Какие данные мы НЕ собираем</h2>
+      <p>Мы не запрашиваем и не храним: имя, email, телефон, контакты, фотографии из
+      галереи (мы только сохраняем в неё ваши раскраски), точную геолокацию, биометрию.
+      Регистрация и создание аккаунта в самом Приложении не требуются.</p>
+
+      <h2>2. Локальные данные (на вашем устройстве)</h2>
+      <p>На устройстве хранятся:</p>
+      <ul>
+        <li>ваш прогресс раскрашивания;</li>
+        <li>настройки Приложения (звук, темы и т.д.);</li>
+        <li>сохранённые раскраски в галерее устройства;</li>
+        <li>локальные рекорды и статистика.</li>
+      </ul>
+      <p>Эти данные <strong>не передаются нам</strong>. Они удаляются при удалении
+      Приложения или очистке его хранилища.</p>
+
+      <h2>3. Реклама (Google AdMob)</h2>
+      <p>Приложение показывает рекламу через <strong>Google AdMob</strong>. Google
+      собирает и передаёт себе следующие технические данные — для показа рекламы,
+      аналитики и профилактики мошенничества:</p>
+      <ul>
+        <li><strong>Рекламный идентификатор устройства</strong> (Advertising ID) —
+        для показа релевантной рекламы, аналитики и антифрода.</li>
+        <li><strong>Приблизительное местоположение</strong> — по IP-адресу
+        (страна/регион), без точных координат.</li>
+        <li><strong>Взаимодействия с приложением</strong> — показы и клики по
+        рекламным блокам.</li>
+        <li><strong>Техническая диагностика рекламного SDK</strong> — сбои и
+        задержки загрузки рекламы.</li>
+      </ul>
+
+      <h2>4. Аналитика (Firebase Analytics)</h2>
+      <p>Приложение использует <strong>Google Firebase Analytics</strong> для сбора
+      обезличенной статистики использования: какие режимы (relax / scale / hard) и
+      разделы популярнее, версия Приложения, модель устройства, версия ОС, язык,
+      примерный регион (по стране). Google также присваивает установке
+      <strong>Firebase Instance ID</strong> — уникальный идентификатор устройства,
+      отдельный от Advertising ID. Эти данные <strong>не идентифицируют вас лично</strong>.</p>
+
+      <h2>5. Таблицы лидеров (Google Play Games Services)</h2>
+      <p>Если вы играете в режимах со счётом, Приложение может отправлять ваши рекорды
+      в <strong>таблицы лидеров Google Play Games</strong>. Для этого Google Play Games
+      Services использует ваш <strong>идентификатор игрока Google Play Games</strong>
+      (Player ID) — уникальный ID, связанный с вашим Google-аккаунтом. В таблицах
+      лидеров ваш счёт может отображаться другим игрокам вместе с публичным именем/аватаром
+      из вашего профиля Google Play Games.</p>
+      <p>Вы можете отключить или скрыть свой профиль Play Games в приложении
+      <strong>Google Play Игры</strong> на устройстве.</p>
+
+      <h2>6. Покупки в приложении (Google Play Billing)</h2>
+      <p>Покупка <strong>«Убрать рекламу»</strong> обрабатывается через
+      <strong>Google Play Billing</strong>. Мы <strong>не получаем и не храним</strong>
+      данные вашей платёжной карты — этим занимается магазин. Google Play передаёт нам
+      только статус покупки (успешно / отменено), чтобы Приложение могло применить
+      купленную функцию.</p>
+
+      <h2>7. Разрешения</h2>
+      <p>Приложение запрашивает следующие разрешения Android:</p>
+      <ul>
+        <li><strong>Интернет</strong> — для рекламы, аналитики, таблиц лидеров и
+        обновлений.</li>
+        <li><strong>com.google.android.gms.permission.AD_ID</strong> — используется
+        Google AdMob для показа персонализированной рекламы. Пользователь может
+        отозвать это разрешение через сброс Advertising ID в настройках устройства.</li>
+        <li><strong>Доступ к галерее / файлам</strong> — только для того, чтобы сохранить
+        готовые раскраски в галерею устройства. Мы не читаем и не отправляем никакие
+        существующие фотографии.</li>
+      </ul>
+      <p>Приложение <strong>не запрашивает</strong> доступ к камере, микрофону,
+      контактам, точной геолокации или другим чувствительным функциям.</p>
+
+      <h2>8. Возрастное ограничение</h2>
+      <p>Приложение подходит для всех возрастов. По содержанию — образовательное и
+      расслабляющее, без насилия и контента для взрослых. Мы сознательно не собираем
+      персональные данные детей. Родители могут ограничить сбор данных и рекламный
+      идентификатор в настройках устройства.</p>
+
+      <h2>9. Удаление данных</h2>
+      <p>Мы не храним ваши персональные данные на своих серверах. Данные, связанные с
+      рекламой и аналитикой, хранятся у Google. Вот как можно удалить или запросить
+      удаление:</p>
+
+      <h3>9.1. Удалить локальные данные</h3>
+      <p>Удалите Приложение или очистите его хранилище:
+      <em>Настройки → Приложения → Kolorino → Хранилище → Очистить данные</em>.</p>
+
+      <h3>9.2. Сбросить рекламный идентификатор</h3>
+      <p><em>Настройки → Google → Реклама → Удалить рекламный идентификатор</em>.
+      Это отвяжет данные AdMob и Firebase от вашего устройства.</p>
+
+      <h3>9.3. Отключить участие в таблицах лидеров</h3>
+      <p>В приложении <strong>Google Play Игры</strong> на устройстве:
+      настройки профиля → скрыть профиль или отключить участие. Ранее отправленные
+      счета можно удалить, обратившись в поддержку Google Play Games.</p>
+
+      <h3>9.4. Запросить удаление данных у Google</h3>
+      <p>Связаться с Google напрямую:
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.
+      Google обрабатывает запросы на удаление данных, связанных с рекламным идентификатором
+      и Firebase Instance ID.</p>
+
+      <h3>9.5. Написать нам</h3>
+      <p>Если возникли вопросы, напишите на
+      <a href="mailto:absurdoxlab@gmail.com">absurdoxlab@gmail.com</a> — ответим
+      в течение 30 дней. Мы не можем удалить данные, которых у нас нет, но поможем
+      сориентироваться в инструментах Google.</p>
+
+      <h2>10. Хранение данных</h2>
+      <p>Локальные данные хранятся на устройстве до удаления Приложения или очистки
+      его хранилища. Данные, обрабатываемые Google (AdMob, Firebase, Play Games,
+      Play Billing), хранятся Google в соответствии с их политикой — обычно не дольше,
+      чем необходимо для описанных целей (реклама, аналитика, функциональность,
+      профилактика мошенничества).</p>
+
+      <h2>11. Сторонние сервисы</h2>
+      <p>Приложение использует сервисы Google: <strong>AdMob</strong>,
+      <strong>Firebase Analytics</strong>, <strong>Google Play Games Services</strong>,
+      <strong>Google Play Billing</strong>. Их обработка данных регулируется политикой
+      конфиденциальности Google:
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
+
+      <h2>12. Изменения</h2>
+      <p>Мы можем обновлять эту политику. Дата последнего обновления указана вверху.
+      Существенные изменения будут отражены в описании обновлений в Google Play.</p>
+
+      <h2>13. Связь</h2>
+      <p>По вопросам конфиденциальности:
+      <strong><a href="mailto:absurdoxlab@gmail.com">absurdoxlab@gmail.com</a></strong></p>
+
+      <footer>© 2026 AbsurdoxLab · Kolorino</footer>
+    </div>
+  </div>
+</body>
+</html>
